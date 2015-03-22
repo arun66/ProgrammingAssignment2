@@ -1,7 +1,8 @@
-## This function caches the inverse of a matrix thereby saving time for runnign the programm
+## This function caches the inverse of a matrix thereby saving time for running a programm
 ## The "makeCacheMatrix" function gets and sets a matrix and its inverse
 ## Various function include :- get() - to get the matrix,  set() - to assign values to matrix object
-## getinverse() - to get the inverse of a matirx from cachesolve function, setinverse() - to set inverse of a matrix from cache solve
+## getinverse() - to get the inverse of a matirx from cachesolve function or by feeding,
+## setinverse() - to set/store inverse of a matrix 
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
